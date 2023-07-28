@@ -1,0 +1,70 @@
+a:hover {
+  color: #a7ede7;
+}
+
+.news-article {
+  padding: 10px;
+  margin-bottom: 10px;
+  height: fit-content;
+}
+
+.news-article-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.news-article-description {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+.news-article-stock {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+.news-article-link {
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+}
+
+.news-article-link:hover {
+  text-decoration: none;
+}
+.save-button {
+  font-size: 14px;
+  background-color: whitesmoke;
+  color: black;
+  border-color: black;
+  border-radius: 3px;
+}
+.save-button:hover {
+  background-color: #d1fcf9;
+  color: black;
+}
+.news-article {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.news-article h2 {
+  margin-top: 0;
+}
+
+.news-article p {
+  margin-bottom: 10px;
+}
+
+.news-article a {
+  color: black;
+  text-decoration: none;
+}
+
+.news-article a:hover {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+}

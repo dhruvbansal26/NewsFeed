@@ -1,0 +1,32 @@
+.subform {
+  margin-bottom: 10px;
+}
+#login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.login-form {
+  text-align: center;
+}
+.show-button {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.show-button:hover {
+  color: #a7ede7;
+  text-decoration: none;
+}
+.login-button {
+  background-color: #a7ede7;
+  color: black;
+  border: none;
+}
+.login-button:hover {
+  background-color: #d1fcf9;
+  color: black;
+}

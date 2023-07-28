@@ -1,0 +1,19 @@
+.signup-form {
+  text-align: center;
+}
+#signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.signup-button {
+  background-color: #a7ede7;
+  color: black;
+  border: none;
+}
+.signup-button:hover {
+  background-color: #d1fcf9;
+  color: black;
+}

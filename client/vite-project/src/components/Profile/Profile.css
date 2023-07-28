@@ -1,0 +1,27 @@
+.spinner-border {
+  color: #a7ede7;
+}
+.user {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.personal-info {
+  font-family: "proxima-nova", "sans-serif";
+  font-weight: 400;
+  color: whitesmoke;
+}
+#edit-name,
+#edit-email {
+  height: 100% !important;
+  color: whitesmoke;
+  margin: 0 0 15px 10px;
+}
+#edit-name:hover,
+#edit-email:hover {
+  color: #a7ede7;
+  margin: 0 0 15px 10px;
+}
