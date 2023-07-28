@@ -84,28 +84,28 @@ def scrape_news():
         market_watch_results.append(entry)
         id_counter += 1  # Increment ID counter
 
-    collection_elements = market_watch_doc.find("div", class_="collection__elements")
-    collection_headlines = collection_elements.find_all(class_='article__headline')
-    for headline in collection_headlines:
-        title = headline.text.strip()
-        if title in existing_titles:
-            entry = {
-                'ID': id_counter,
-                'Title': title,
-                'URL': headline.find("a")["href"],
-            }
-        else:
-            existing_titles.add(title)
-            newline_index = title.find('\n')
-            if newline_index != -1:
-                title = title[newline_index+1:].strip()
-            entry = {
-                'ID': id_counter,
-                'Title': title,
-                'URL': headline.find("a")["href"],
-            }
-        market_watch_results.append(entry)
-        id_counter += 1  # Increment ID counter
+    # collection_elements = market_watch_doc.find("div", class_="collection__elements")
+    # collection_headlines = collection_elements.find_all(class_='article__headline')
+    # for headline in collection_headlines:
+    #     title = headline.text.strip()
+    #     if title in existing_titles:
+    #         entry = {
+    #             'ID': id_counter,
+    #             'Title': title,
+    #             'URL': headline.find("a")["href"],
+    #         }
+    #     else:
+    #         existing_titles.add(title)
+    #         newline_index = title.find('\n')
+    #         if newline_index != -1:
+    #             title = title[newline_index+1:].strip()
+    #         entry = {
+    #             'ID': id_counter,
+    #             'Title': title,
+    #             'URL': headline.find("a")["href"],
+    #         }
+    #     market_watch_results.append(entry)
+    #     id_counter += 1  # Increment ID counter
 
     all_results = yahoo_results + market_watch_results
     results = json.dumps(all_results, indent=4)

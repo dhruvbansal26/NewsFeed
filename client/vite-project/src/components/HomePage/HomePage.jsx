@@ -28,14 +28,14 @@ const HomePage = () => {
 
   return (
     <div className="home-div">
-      <h1 className="welcome-text text-center">Welcome to FNT</h1>
+      <h1 className="welcome-text text-center">Welcome to NewsFeed</h1>
       <p className="info-text lead text-center">
-        Financial News Tracker is an exciting personal project designed to
-        provide you with the most up-to-date information about financial markets
-        and cryptocurrencies, sourced from top news websites. This is an
-        open-source project hosted on GitHub. By visiting the GitHub repository,
-        you can explore the project's codebase, contribute to its development,
-        or even use it as a starting point for your project.
+        NewsFeed is an exciting personal project designed to provide you with
+        the most up-to-date information about financial markets and
+        cryptocurrencies, sourced from top news websites. This is an open-source
+        project hosted on GitHub. By visiting the GitHub repository, you can
+        explore the project's codebase, contribute to its development, or even
+        use it as a starting point for your project.
       </p>
       <button
         type="button"

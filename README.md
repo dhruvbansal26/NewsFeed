@@ -27,6 +27,8 @@ The Financial News Tracker is a personal project developed to scrape news from v
 
 The web application has a simple and user-friendly interface. New users can sign up for an account, while returning users can log in to access the features. Once logged in, users can navigate to the "News" tab to view up-to-date financial headlines and save articles they find interesting for later reading.
 
+[Watch Video](https://drive.google.com/file/d/1MWsAc4Cjvba6pt4T2pWVqko_jXuXZuae/view?usp=sharing)
+
 ## Links
 
 The Financial News Tracker scrapes news from the following websites:
