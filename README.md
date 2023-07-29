@@ -25,9 +25,10 @@ The Financial News Tracker is a personal project developed to scrape news from v
 
 ## Usage
 
-The web application has a simple and user-friendly interface. New users can sign up for an account, while returning users can log in to access the features. Once logged in, users can navigate to the "News" tab to view up-to-date financial headlines and save articles they find interesting for later reading.
+The web application has a simple and user-friendly interface. New users can sign up for an account while returning users can log in to access the features. Once logged in, users can navigate to the "News" tab to view up-to-date financial headlines and save articles they find interesting for later reading.
 
-[Watch Video](https://drive.google.com/file/d/1MWsAc4Cjvba6pt4T2pWVqko_jXuXZuae/view?usp=sharing)
+https://github.com/dhruvbansal26/NewsFeed/assets/108138649/16612fab-29a6-4096-b4dc-11ee5829074d
+
 
 ## Links
 
@@ -40,5 +41,5 @@ Please note that these websites were selected for the project because they allow
 
 ## Contribution
 
-This project is open-source and hosted on GitHub. If you would like to contribute, you can fork the project to start your own development or suggest improvements. I welcome collaboration and would be happy to discuss any ideas or feedback. You can reach out to me on:
+If you would like to contribute, you can fork the project to start your own development or suggest improvements. I welcome collaboration and would be happy to discuss any ideas or feedback. You can reach out to me on:
 https://www.linkedin.com/in/dhruvb26/
