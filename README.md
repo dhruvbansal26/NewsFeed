@@ -29,7 +29,6 @@ The web application has a simple and user-friendly interface. New users can sign
 
 https://github.com/dhruvbansal26/NewsFeed/assets/108138649/16612fab-29a6-4096-b4dc-11ee5829074d
 
-
 ## Links
 
 The Financial News Tracker scrapes news from the following websites:
@@ -41,5 +40,4 @@ Please note that these websites were selected for the project because they allow
 
 ## Contribution
 
-If you would like to contribute, you can fork the project to start your own development or suggest improvements. I welcome collaboration and would be happy to discuss any ideas or feedback. You can reach out to me on:
-https://www.linkedin.com/in/dhruvb26/
+If you would like to contribute, you can fork the project to start your own development or suggest improvements. I welcome collaboration and would be happy to discuss any ideas or feedback.
